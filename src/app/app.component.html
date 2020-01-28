@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand{-sm|-md|-lg|-xl} navbar-light  bg-danger sticky-top">
+  <button class="navbar-toggler" role="navigation" data-toggle="collapse" data-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a routerLink="/home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+              <a routerLink="#" class="nav-link">Details</a>
+          </li>
+          <li class="nav-item"> 
+              <a routerLink="#" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item active">
+              <a routerLink="/register" class="nav-link">Register</a>
+          </li>
+          <form class="form-inline">
+              <input class="form-control" type="search" placeholder="Search...">
+              <button class="btn btn-info" type="submit">Search</button>
+          </form>
+      </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="page-footer bg-danger fixed-bottom">
+  <div class="footer-copyright text-center">&copy;2020
+      <a href="#">Mohanstark</a>
+      Copyrights Reserved.
+  </div>
+</footer>
